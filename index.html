@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700|Raleway:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -216,8 +217,257 @@
                 </div>
             </div>
         </div>
-    </section></main>
-
+    </section><section class="section section__image-right bg-secondary">
+        <div class="container-fluid container-lg py-5">
+            <div class="row flex-column flex-md-row">
+                <div class="col col-md-6">
+                    <h3 class="position-relative line_title font_20 font-weight-bold">Sub list section</h3>
+                    <p class="open-sans text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid animi at beatae culpa debitis,
+                        dolores dolorum earum eum expedita ipsa iste itaque libero maxime natus necessitatibus neque
+                        nesciunt nihil nobis nostrum odio odit omnis perspiciatis porro quo quos recusandae repellendus
+                        repudiandae, sint suscipit, tenetur totam unde ut! Delectus, dolore!
+                    </p>
+                </div>
+                <div class="col col-md-5 offset-md-1">
+                    <div class="d-inline-block shadow-lg">
+                        <img class="img-fluid" src="./assets/img/imag_section.jpg" height="303" width="453"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><section class="section section__view-details">
+        <div class="container-fluid container-lg py-5">
+            <div class="row flex-column">
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="line_title line_title_center d-inline-block position-relative text-center pb-3">Why this is awesome</h2>
+                        <p class="text-muted text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row mx-0">
+                <div class="col-lg-4 mt-5">
+                    <div class="b-view-details d-flex flex-column align-items-center">
+                        <h1 class="icon-hover border border-warning rounded-circle p-4 mb-4 fas fa-address-card"></h1>
+                        <h4 class="open-sans font-weight-bold mb-4">Heading</h4>
+                        <p class="text-muted text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id
+                            dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                            eros. Praesent commodo cursus magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="b-view-details d-flex flex-column align-items-center">
+                        <h1 class="icon-hover border border-warning rounded-circle p-4 mb-4 fab fa-amazon-pay"></h1>
+                        <h4 class="open-sans font-weight-bold mb-4">Heading</h4>
+                        <p class="text-muted text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id
+                            dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                            eros. Praesent commodo cursus magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="b-view-details d-flex flex-column align-items-center">
+                        <h1 class="icon-hover border border-warning rounded-circle p-4 mb-4 fas fa-wifi"></h1>
+                        <h4 class="open-sans font-weight-bold mb-4">Heading</h4>
+                        <p class="text-muted text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id
+                            dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                            eros. Praesent commodo cursus magna.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section><section class="section section__price bg-secondary py-5">
+        <div class="container-fluid container-lg">
+            <div class="row flex-column">
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="line_title line_title_center d-inline-block position-relative text-center pb-3">
+                            Тарифні плани
+                        </h2>
+                        <p class="text-muted text-center mt-3">Вибери і замов тариф який тобі підходить. Підключеня становитеме 1200 грн.</p>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="row justify-content-around p-md-5">
+                        <div class="col-md-4 align-self-end mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-header bg-dark">
+                                    <h4 class="text-white my-0 font-weight-normal">Для бізнесу</h4>
+                                </div>
+                                <div class="card-body bg-dark p-0">
+                                    <h1 class="card-title pricing-card-title text-white">200</h1>
+                                    <p class="text-muted">грн./міс</p>
+                                    <button class="btn btn-price btn-outline-orange border-0 btn-block text-white text-lowercase">
+                                        Замовити план
+                                    </button>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <ul class="list-unstyled d-inline-block mx-auto">
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>300 М/с скорість</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>1200 грн. підключення</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>кабінет користувача</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>24/7 підтримка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 align-self-end mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-header bg-dark">
+                                    <h4 class="text-white my-0 font-weight-normal">Для населення</h4>
+                                </div>
+                                <div class="card-body bg-dark p-0">
+                                    <h1 class="card-title pricing-card-title text-white">200</h1>
+                                    <p class="text-muted">грн./міс</p>
+                                    <button class="btn btn-price btn-outline-orange border-0 btn-block text-white text-lowercase">
+                                        Замовити план
+                                    </button>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <ul class="list-unstyled d-inline-block mx-auto">
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>300 М/с скорість</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>1200 грн. підключення</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>кабінет користувача</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>24/7 підтримка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 align-self-end mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-header bg-dark">
+                                    <h4 class="text-white my-0 font-weight-normal">Для соціальних</h4>
+                                </div>
+                                <div class="card-body bg-dark p-0">
+                                    <h1 class="card-title pricing-card-title text-white">200</h1>
+                                    <p class="text-muted">грн./міс</p>
+                                    <button class="btn btn-price btn-outline-orange border-0 btn-block text-white text-lowercase">
+                                        Замовити план
+                                    </button>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <ul class="list-unstyled d-inline-block mx-auto">
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>300 М/с скорість</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>1200 грн. підключення</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>кабінет користувача</li>
+                                        <li class="text-left mt-2"> <span class="far fa-check-circle text-success mr-2"></span>24/7 підтримка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section__comment pt-5">
+        <div class="container-fluid container-lg">
+            <div class="row flex-column">
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="line_title line_title_center d-inline-block position-relative text-center pb-3">
+                            Відгуки користувачів
+                        </h2>
+                        <p class="text-muted text-center mt-3">Вибери і замов тариф який тобі підходить. Підключеня становитеме 1200 грн.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-4 my-3">
+                            <div class="arrow_box bg-secondary p-4">
+                                <p class="text-muted">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna.</p>
+                            </div>
+                            <div class="media mt-4">
+                                <img src="./assets/img/profile-image-1.jpg" class=" rounded-circle mr-3" width="64" alt="image-coment">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Іван Іванович</h5>
+                                    <p class="text-muted">Адміністратор</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-lg-4 my-3">
+                            <div class="arrow_box bg-secondary p-4">
+                                <p class="text-muted">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna.</p>
+                            </div>
+                            <div class="media mt-4">
+                                <img src="./assets/img/profile-image-2.jpg" class=" rounded-circle mr-3" width="64" alt="image-coment">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Іван Іванович</h5>
+                                    <p class="text-muted">Бізнесмен</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-lg-4 my-3">
+                            <div class="arrow_box bg-secondary p-4">
+                                <p class="text-muted">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna.</p>
+                            </div>
+                            <div class="media mt-4">
+                                <img src="./assets/img/profile-image-3.jpg" class=" rounded-circle mr-3" width="64" alt="image-coment">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Іван Іванович</h5>
+                                    <p class="text-muted">Учитель</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-lg-4 -->
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section><section class="section section__carousel">
+        <div class="container-fluid container-lg py-5">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                         <div class="container  carousel-container">
+                            <div class="carousel-caption text-left">
+                                <h1>Example headline.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="container carousel-container">
+                            <div class="carousel-caption">
+                                <h1>Another example headline.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container carousel-container">
+                            <div class="carousel-caption text-right">
+                                <h1>One more for good measure.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section><section class="section section__map">
+            <div class="position-relative">
+                <div id='map'></div>
+            </div>
+    </section>
+</main>
 
 
 
@@ -227,6 +477,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
 <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js'></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
